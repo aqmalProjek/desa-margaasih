@@ -4,7 +4,7 @@ import Container from "./Container";
 
 const Jumbotron = () => {
   return (
-    <section className="md:pt-14  w-full min-h-[70vh] bg-black max-h-[800px] relative">
+    <section className=" w-full min-h-[70vh] bg-black max-h-[800px] relative">
       <Image
         src="/Bg_1.jpg"
         alt="Gambaran event"

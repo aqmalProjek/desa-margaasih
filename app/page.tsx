@@ -1,6 +1,6 @@
 "use client";
 
-import NavbarComponent from "@/components/Navbar";
+
 import Jumbotron from "@/components/Jumbotron";
 import About from "@/components/Home/About";
 import Container from "@/components/Container";
@@ -8,12 +8,10 @@ import Digitalisasi from "@/components/Home/Digitalisasi";
 import VisiMisi from "@/components/Home/VisiMisi";
 import StaffCard from "@/components/Home/StaffCard";
 import Aktifity from "@/components/Home/Aktifity";
-import FooterCustom from "@/components/Home/FooterCustom";
 
 export default function Home() {
   return (
     <>
-      <NavbarComponent />
       <Jumbotron />
       <About />
       <Digitalisasi />
@@ -36,7 +34,6 @@ export default function Home() {
           </div>
         </Container>
       </section>
-      <FooterCustom />
     </>
   );
 }
