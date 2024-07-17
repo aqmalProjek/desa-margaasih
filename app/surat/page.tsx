@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import LetterCard from "@/components/letter/LetterCard"; 
+import LetterCard from "@/components/letter/LetterCard";
 import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
@@ -55,16 +55,56 @@ const page = () => {
       </section>
       <section className="pt-10">
         <Container className="grid md:grid-cols-4 lg:grid-cols-4 gap-3">
-            <LetterCard title="Pembuatan Surat Keterangan Usaha" />
-            <LetterCard title="Surat Keterangan Tidak Mampu" />
-            <LetterCard title="Surat Keterangan Kelahiran" />
-            <LetterCard title="Surat Keterangan Kematian" />
-            <LetterCard title="Surat Pengantar Nikah" />
-            <LetterCard title="Surat Keterangan Pindah" />
-            <LetterCard title="Surat Izin Keramaian" />
-            <LetterCard title="Surat Keterangan Penghasilan" />
-            <LetterCard title="Surat Keterangan Belum Menikah" />
-            <LetterCard title="Surat Keterangan Ahli Waris" />
+          <LetterCard
+            link="/sku"
+            title="Pembuatan Surat Keterangan Usaha"
+            description="Digunakan oleh warga untuk mengurus izin usaha atau sebagai syarat pengajuan pinjaman modal usaha."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Keterangan Tidak Mampu"
+            description="Diperlukan untuk mengajukan bantuan sosial atau beasiswa bagi warga yang kurang mampu."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Keterangan Kelahiran"
+            description="Digunakan untuk melaporkan dan mencatat kelahiran anak warga desa."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Keterangan Kematian"
+            description="Diperlukan untuk melaporkan dan mencatat kematian warga desa."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Pengantar Nikah"
+            description="Diperlukan sebagai syarat administrasi untuk melangsungkan pernikahan."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Keterangan Pindah"
+            description="Digunakan untuk mengurus kepindahan warga dari satu desa ke desa lain."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Izin Keramaian"
+            description="Diperlukan untuk mengadakan acara yang melibatkan banyak orang, seperti pesta pernikahan atau acara desa."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Keterangan Penghasilan"
+            description="Digunakan sebagai syarat untuk berbagai keperluan, seperti pengajuan beasiswa atau kredit."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Keterangan Belum Menikah"
+            description="Diperlukan untuk mengurus persyaratan tertentu yang memerlukan status belum menikah."
+          />
+          <LetterCard
+            link="/sku"
+            title="Surat Keterangan Ahli Waris"
+            description="Digunakan untuk mengurus pembagian warisan bagi ahli waris yang sah."
+          />
         </Container>
       </section>
     </>

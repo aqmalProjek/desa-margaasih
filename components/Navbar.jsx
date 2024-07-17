@@ -34,7 +34,7 @@ export default function NavabarComponent() {
           }
         >
           <DropdownHeader>
-            <Link className="block text-sm" href="/letter">
+            <Link className="block text-sm" href="/surat">
               Cara Membuat Surat Online
             </Link>
           </DropdownHeader>
